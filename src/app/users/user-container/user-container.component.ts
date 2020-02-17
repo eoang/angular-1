@@ -8,20 +8,26 @@ import {UserInfo, UserModel} from '../../models/user-model';
 })
 export class UserContainerComponent implements OnInit {
 
-  public currentUser : UserModel
+  currentUser : UserModel
   constructor() { 
-      this.currentUser;
+     
   }
 
   ngOnInit() {
     console.log('User Container Init')
-    // this.currentUser = new UserModel(0, 'johndoe', 'johndoe@gmail.com',
-    //   new UserInfo('John', 'Doe', 'Clerk', 'http://authenticgoods.co/wrapbootstrap/themes/sparks/img/team/avatar-male.png'));
+
 
 //console.log(this.currentUser.id);
-     this.currentUser = new UserModel(1,'Gah','Gah.don@gmail.com', 
+     this.currentUser = new UserModel(1,"Gah","Gah_don@gmail.com", 
      new UserInfo ('Gah','don','Developer','http://authenticgoods.avatar-male.png') );
+
+
+  function Update()
+  {}
+     
   }
+
+  
 
    
 }

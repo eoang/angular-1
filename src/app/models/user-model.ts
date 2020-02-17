@@ -16,7 +16,7 @@ export class UserModel {
       public lastName: string,
      public jobTitle: string,
       public avatar: string,
-     public phoneNumber: string=""
+     public phoneNumber: string=''
    )
    {}
   }
