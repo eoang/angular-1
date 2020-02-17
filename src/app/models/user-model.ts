@@ -1,8 +1,9 @@
 export class UserModel {
-    constructor( id: number,
-    username: string,
-    email: string,
-    info: UserInfo)
+    constructor( 
+      public id: number,
+    public username: string,
+    public email: string,
+    public info: UserInfo)
     {}
     
     
@@ -11,11 +12,11 @@ export class UserModel {
   export class UserInfo
   {
     constructor( 
-      firstName: string,
-      lastName: string,
-      jobTitle: string,
-      avatar: string,
-      phoneNumber: string
+      public firstName: string,
+      public lastName: string,
+     public jobTitle: string,
+      public avatar: string,
+     public phoneNumber: string
    )
    {}
   }
