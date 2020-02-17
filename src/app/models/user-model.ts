@@ -8,7 +8,7 @@ export class UserModel {
     
     
   }
-  class UserInfo
+  export class UserInfo
   {
     onstructor( 
       firstName: string,
