@@ -10,7 +10,7 @@ export class UserModel {
   }
   export class UserInfo
   {
-    onstructor( 
+    constructor( 
       firstName: string,
       lastName: string,
       jobTitle: string,

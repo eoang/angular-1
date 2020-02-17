@@ -8,14 +8,14 @@ import {UserInfo, UserModel} from '../../models/user-model';
 })
 export class UserContainerComponent implements OnInit {
 
-  currentUser : UserModel
+  public currentUser : UserModel
   constructor() { 
-      
+      this.currentUser;
   }
 
   ngOnInit() {
     console.log('User Container Init')
-    this.currentUser = new UserModel(1,"Gah","Gah.don@gmail.com", new UserInfo ("Gah","don","Developer","http://authenticgoods.co/wrapbootstrap/themes/sparks/img/team/avatar-male.png","01-234-343434") );
+    this.currentUser = new UserModel(1,'Gah','Gah.don@gmail.com', new UserInfo ('Gah','don','Developer','http://authenticgoods.co/wrapbootstrap/themes/sparks/img/team/avatar-male.png','01-234-343434') );
   }
 
    
