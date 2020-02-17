@@ -20,7 +20,7 @@ export class UserContainerComponent implements OnInit {
 
 //console.log(this.currentUser.id);
      this.currentUser = new UserModel(1,'Gah','Gah.don@gmail.com', 
-     new UserInfo ('Gah','don','Developer','http://authenticgoods.co/wrapbootstrap/themes/sparks/img/team/avatar-male.png') );
+     new UserInfo ('Gah','don','Developer','http://authenticgoods.avatar-male.png') );
   }
 
    
