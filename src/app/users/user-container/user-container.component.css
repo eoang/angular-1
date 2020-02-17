@@ -1,7 +1,24 @@
-.user-item{
+/* .user-item{
    width: 300px;
    border-radius: 10px;
    border: solid 1px lightgray;
    padding: 10px;
    color: forestgreen;
+} */
+.user-item{
+   /*width: 300px;*/
+   border-radius: 10px;
+   border: solid 1px lightgray;
+   padding: 10px;
+   display: flex;
+   color: forestgreen;
+}
+
+.row{
+  padding: 10px;
+}
+
+.user-item img{
+  width: 100px;
+  margin-right: 10px;
 }
